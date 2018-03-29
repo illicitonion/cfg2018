@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <!-- The form's action and method need to match the route we set up in the python file. -->
+    <form action="/signup" method="post">
+
+      <!-- The "for" value of a label needs to be the same as the "id" value of the field it describes. -->
+      <label for="name">Name:</label>
+      <!-- The "name" value of the input is the key in the request.form dictionary which will have this text box's value. -->
+      <input type="text" id="name" name="name" />
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
